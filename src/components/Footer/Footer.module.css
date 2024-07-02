@@ -1,0 +1,15 @@
+.footer {
+  background-image: linear-gradient(rgb(15, 15, 15), rgb(47, 47, 51));
+
+  background-position: center;
+  padding: 15px;
+}
+.logo {
+  display: block;
+  width: 50px;
+  text-decoration: none;
+}
+.image {
+  display: block;
+  width: 50px;
+}

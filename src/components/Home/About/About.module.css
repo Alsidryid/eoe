@@ -1,0 +1,9 @@
+.section {
+  padding: 15px;
+  background-color: rgb(43, 41, 41);
+  color: rgb(192, 189, 189);
+}
+.title {
+  text-align: center;
+  color: rgb(241, 241, 241);
+}

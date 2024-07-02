@@ -1,0 +1,16 @@
+.cont {
+  display: flex;
+  flex-direction: column;
+}
+.list {
+  list-style: none;
+  padding: o;
+  margin: 0;
+}
+.link {
+  text-decoration: none;
+  color: rgba(211, 184, 31, 0.911);
+}
+.item:not(:last-child) {
+  margin-bottom: 8px;
+}

@@ -1,0 +1,13 @@
+.section {
+  margin: auto;
+  padding: 25px;
+  background-color: rgba(68, 68, 68, 0.637);
+}
+.img {
+  margin: auto;
+  display: block;
+}
+.title {
+  text-align: center;
+  color: aliceblue;
+}
