@@ -1,13 +1,56 @@
 .section {
   margin: auto;
-  padding: 25px;
+  padding: 25px 30px;
   background-color: rgba(68, 68, 68, 0.637);
 }
 .img {
   margin: auto;
   display: block;
+  max-width: 240px;
+  cursor: pointer;
 }
 .title {
   text-align: center;
   color: aliceblue;
+}
+
+@media screen and (min-width: 700px) {
+  .img {
+    margin: auto;
+    display: block;
+    max-width: 380px;
+  }
+  .title {
+    font-size: 40px;
+    text-align: center;
+    color: aliceblue;
+    margin: 5px auto 10px auto;
+  }
+  .section {
+    margin: auto;
+    padding: 15px 30px;
+    background-color: rgba(68, 68, 68, 0.637);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .img {
+    margin: auto;
+    display: block;
+    max-width: 550px;
+  }
+  .title {
+    font-size: 50px;
+    text-align: center;
+    color: aliceblue;
+    margin: 15px auto 30px auto;
+  }
+  .section {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .sldr {
+    padding: 25px;
+  }
 }

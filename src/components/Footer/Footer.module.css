@@ -2,7 +2,6 @@
   background-image: linear-gradient(rgb(15, 15, 15), rgb(47, 47, 51));
 
   background-position: center;
-  padding: 15px;
 }
 .logo {
   display: block;
@@ -12,4 +11,10 @@
 .image {
   display: block;
   width: 50px;
+}
+.content {
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
 }

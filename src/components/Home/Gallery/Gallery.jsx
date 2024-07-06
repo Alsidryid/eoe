@@ -5,6 +5,9 @@ import "slick-carousel/slick/slick-theme.css";
 import picture1 from "../../../images/1.jpg";
 import picture2 from "../../../images/2.jpg";
 import picture3 from "../../../images/3.jpg";
+import picture4 from "../../../images/4.jpg";
+import picture5 from "../../../images/5.jpg";
+import picture6 from "../../../images/6.jpg";
 import style from "./Gallery.module.css";
 
 const Gallery = () => {
@@ -19,7 +22,7 @@ const Gallery = () => {
   return (
     <div className={style.section}>
       <h2 className={style.title}> Наша галерея</h2>
-      <Slider {...settings}>
+      <Slider {...settings} className={style.sldr}>
         <div>
           <img className={style.img} src={picture1} alt="Slide 1" />
         </div>
@@ -28,6 +31,15 @@ const Gallery = () => {
         </div>
         <div>
           <img className={style.img} src={picture3} alt="Slide 3" />
+        </div>
+        <div>
+          <img className={style.img} src={picture4} alt="Slide 4" />
+        </div>
+        <div>
+          <img className={style.img} src={picture5} alt="Slide 5" />
+        </div>
+        <div>
+          <img className={style.img} src={picture6} alt="Slide 6" />
         </div>
       </Slider>
     </div>

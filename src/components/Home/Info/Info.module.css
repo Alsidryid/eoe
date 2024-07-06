@@ -13,3 +13,46 @@
   padding: 0;
   list-style: none;
 }
+@media screen and (min-width: 700px) {
+  .section {
+    background-color: rgb(43, 41, 41);
+    color: white;
+    padding: 20px 35px;
+  }
+  .title {
+    margin: 20px auto 25px auto;
+    text-align: center;
+    color: brown;
+    font-size: 25px;
+  }
+  .main_list {
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    font-size: 18px;
+    max-width: 80%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .section {
+    background-color: rgb(43, 41, 41);
+    color: white;
+    padding: 35px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .title {
+    margin: 20px auto 25px auto;
+    text-align: center;
+    color: brown;
+    font-size: 27px;
+  }
+  .main_list {
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    font-size: 19px;
+    max-width: 100%;
+  }
+}

@@ -3,10 +3,6 @@
   background-image: linear-gradient(rgb(15, 15, 15), rgb(47, 47, 51));
 
   background-position: center;
-  padding: 15px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 .logo {
   display: block;
@@ -22,4 +18,13 @@
 .image {
   display: block;
   width: 50px;
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
 }
