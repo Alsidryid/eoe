@@ -1,0 +1,22 @@
+.icon {
+  fill: rgba(211, 184, 31, 0.911);
+  width: 40px;
+}
+.icon:hover {
+  fill: rgb(251, 255, 0);
+}
+.contacts {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 250px;
+}
+
+@media screen and (max-width: 351px) {
+  .icon {
+    width: 30px;
+  }
+  .contacts {
+    width: 200px;
+  }
+}
