@@ -1,6 +1,7 @@
 import style from "./Header.module.css";
 import Contacts from "./Contacts/Contacts.jsx";
 import picture from "../../images/logo2.svg";
+import LangSelector from "./LengSelector/LengSelector.jsx";
 
 const Header = () => {
   return (
@@ -12,6 +13,7 @@ const Header = () => {
           </a>
         </div>
         <Contacts />
+        <LangSelector />
       </div>
     </div>
   );

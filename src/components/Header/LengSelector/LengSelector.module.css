@@ -1,0 +1,12 @@
+.select {
+  font-size: 20px;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+@media screen and (max-width: 319px) {
+  .select {
+    font-size: 13px;
+    margin-left: 10px;
+  }
+}

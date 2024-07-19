@@ -3,19 +3,24 @@ import Header from "../Header/Header.jsx";
 import Homepage from "../Home/Homepage/Homepage.jsx";
 import Footer from "../Footer/Footer.jsx";
 import StartImage from "../StartImage/StartImage.jsx";
-import { useState, useEffect } from "react";
+import { useEffect } from "react";
+import { useSelector, useDispatch } from "react-redux";
+import { startTimer } from "../../redux/actions.js";
 
 const EoEApp = () => {
-  const [fade, setFade] = useState(false);
+  const dispatch = useDispatch();
+
+  const fade = useSelector((store) => store.fade);
 
   useEffect(() => {
-    const timer = setTimeout(() => setFade(true), 3000); // Таймер для запуска анимации
-    return () => clearTimeout(timer); // Очистка таймера при размонтировании компонента
-  }, []);
+    const timer = setTimeout(() => {
+      dispatch(startTimer());
+    }, 3000);
+    return () => clearTimeout(timer);
+  }, [dispatch]);
   return (
     <div className={style.box}>
-      {!fade && <StartImage fade={fade} />}
-      {/* <StartImage fade={fade} /> */}
+      {!fade && <StartImage />}
       <Header />
       <Homepage />
       <Footer />

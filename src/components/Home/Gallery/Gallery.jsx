@@ -9,7 +9,7 @@ import picture4 from "../../../images/4.jpg";
 import picture5 from "../../../images/5.jpg";
 import picture6 from "../../../images/6.jpg";
 import style from "./Gallery.module.css";
-
+import { useTranslation } from "react-i18next";
 const Gallery = () => {
   const settings = {
     // dots: true,
@@ -18,10 +18,11 @@ const Gallery = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
   };
+  const { t } = useTranslation();
 
   return (
     <div className={style.section}>
-      <h2 className={style.title}> Наша галерея</h2>
+      <h2 className={style.title}> {t("gallery.title")}</h2>
       <Slider {...settings} className={style.sldr}>
         <div>
           <img className={style.img} src={picture1} alt="Slide 1" />

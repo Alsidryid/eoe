@@ -1,11 +1,14 @@
 import style from "./Info.module.css";
+import { useTranslation } from "react-i18next";
 
 const Info = () => {
+  const { t } = useTranslation();
+
   return (
     <div className={style.section}>
       <ul className={style.main_list}>
         <li>
-          <h3 className={style.title}>Как проходит мастер-класс: </h3>
+          <h3 className={style.title}>{t("info.title1")} </h3>
           <ul>
             <li>Выбираем ингредиенты для коктейля;</li>
             <li>Наливаем основу;</li>
@@ -14,7 +17,7 @@ const Info = () => {
           </ul>
         </li>
         <li>
-          <h3 className={style.title}>Какие материалы предоставим мы:</h3>
+          <h3 className={style.title}>{t("info.title2")}</h3>
           <ul>
             <li>Бокалы или одноразовые стаканчики</li>
             <li>Дешовое винище</li>
@@ -23,7 +26,7 @@ const Info = () => {
           </ul>
         </li>
         <li>
-          <h3 className={style.title}>Что потребуется от заказчика:</h3>
+          <h3 className={style.title}>{t("info.title3")}</h3>
           <ul>
             <li>
               Открытая или закрытая площадка для проведения мастер-класса.
@@ -33,7 +36,7 @@ const Info = () => {
           </ul>
         </li>
         <li>
-          <h3 className={style.title}>Нюансы:</h3>
+          <h3 className={style.title}>{t("info.title4")}</h3>
           <ul>
             <li>
               Мастера могут быть одеты в праздничную или классическую одежду или

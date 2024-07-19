@@ -2,9 +2,12 @@ import { createPortal } from "react-dom";
 import style from "./StartImage.module.css";
 import { useEffect, useState } from "react";
 import picture from "../../images/eoe.svg";
+import { useSelector } from "react-redux";
 const ImageRoot = document.getElementById("image-root");
 
-const StartImage = ({ fade }) => {
+const StartImage = () => {
+  const fade = useSelector((store) => store.fade);
+
   const [className, setClassName] = useState(style.start_box);
 
   useEffect(() => {

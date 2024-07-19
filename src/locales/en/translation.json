@@ -1,0 +1,17 @@
+{
+  "hero": { "title": "MASTER CLASS ON COCKTAILS" },
+  "gallery": { "title": "OUR GALLERY" },
+  "about": {
+    "title": "Cocktail master class together from Sergio",
+    "p1": "A cocktail making master class or an off-site bar will attract attention at any event. Our master class will be a revelation for those who want to impress friends and try something new.",
+    "p2": "Production time: 5-10 minutes.",
+    "p3": "Average traffic: 40-50 people. at one o'clock.",
+    "p4": "Возраст участников: от 18-ти лет."
+  },
+  "info": {
+    "title1": "How the master class goes:",
+    "title2": "What materials will we provide:",
+    "title3": "What is required from the customer:",
+    "title4": "Nuances:"
+  }
+}

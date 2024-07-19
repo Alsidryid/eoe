@@ -3,6 +3,8 @@ import Hero from "../Hero/Hero.jsx";
 import About from "../About/About.jsx";
 import Gallery from "../Gallery/Gallery.jsx";
 import Info from "../Info/Info.jsx";
+import Video from "../Video/Video.jsx";
+
 const Homepage = () => {
   return (
     <div className={style.space}>
@@ -10,6 +12,7 @@ const Homepage = () => {
         <Hero />
         <About />
         <Gallery />
+        <Video />
         <Info />
       </div>
     </div>
