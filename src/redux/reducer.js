@@ -6,6 +6,7 @@ const initialState = {
     ru: "russian",
   },
   fade: false,
+  modalOpen: false,
 };
 
 const reducer = (state = initialState, action) => {
@@ -14,6 +15,18 @@ const reducer = (state = initialState, action) => {
       return {
         ...state,
         fade: true,
+      };
+    case "OPEN_MODAL":
+      return {
+        ...state,
+        modalOpen: true,
+        image: action.payload,
+      };
+    case "CLOSE_MODAL":
+      return {
+        ...state,
+        modalOpen: false,
+        image: null,
       };
     default:
       return state;

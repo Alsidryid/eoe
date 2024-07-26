@@ -1,0 +1,21 @@
+.slick-dots {
+  position: static !important; /* Убираем position: absolute */
+  display: flex !important; /* Пример стиля для размещения */
+  justify-content: center; /* Центрирование точек */
+  list-style: none; /* Убираем маркеры списка */
+  padding: 0; /* Убираем отступы */
+  padding-top: 40px;
+}
+.slick-dots li button:before {
+  font-size: 12px;
+}
+.slick-track {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+@media screen and (max-width: 423px) {
+  .slick-dots {
+    flex-wrap: wrap;
+  }
+}

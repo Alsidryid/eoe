@@ -1,21 +1,21 @@
 .section {
   padding: 15px;
-  background-color: rgb(43, 41, 41);
+  background-color: rgb(22, 22, 39);
   color: rgb(192, 189, 189);
 }
 .title {
   text-align: center;
-  color: rgb(241, 241, 241);
+  color: rgb(247, 165, 59);
 }
 @media screen and (min-width: 700px) {
   .section {
     padding: 25px 30px;
-    background-color: rgb(43, 41, 41);
+
     color: rgb(192, 189, 189);
   }
   .title {
     text-align: center;
-    color: rgb(241, 241, 241);
+
     font-size: 40px;
     margin: 5px auto;
   }
@@ -23,16 +23,15 @@
 @media screen and (min-width: 1024px) {
   .section {
     padding: 35px 35px;
-    background-color: rgb(43, 41, 41);
+
     color: rgb(192, 189, 189);
     font-size: 22px;
-    max-width: 1200px;
+    max-width: 1400px;
     margin-left: auto;
     margin-right: auto;
   }
   .title {
     text-align: center;
-    color: rgb(241, 241, 241);
     font-size: 50px;
     margin: 5px auto;
   }

@@ -1,6 +1,6 @@
 .header {
-  background-color: rgb(32, 32, 32);
-  background-image: linear-gradient(rgb(15, 15, 15), rgb(47, 47, 51));
+  background-color: rgb(87, 33, 36);
+  background-image: linear-gradient(rgb(50, 50, 88), rgb(23, 23, 41));
 
   background-position: center;
 }
@@ -23,7 +23,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1170px;
+  max-width: 1370px;
   margin-left: auto;
   margin-right: auto;
   padding: 15px;

@@ -10,7 +10,7 @@ const FooterContacts = () => {
   return (
     <div className={style.contacts}>
       <a
-        href="https://www.instagram.com/"
+        href="https://www.instagram.com/sergio_aus_prg_07_02/?utm_source=qr&igsh=MTJ0aGVxeXNnd3IwMQ%3D%3D"
         rel="noreferrer"
         className={style.link}
         target="_blank"

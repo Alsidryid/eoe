@@ -1,57 +1,57 @@
 .hero {
   background-image: linear-gradient(
-      rgba(46, 47, 66, 0.6),
-      rgba(46, 47, 66, 0.6)
+      rgba(46, 47, 66, 0.4),
+      rgba(46, 47, 66, 0.4)
     ),
     url(../../../images/bar3.jpg);
   background-repeat: no-repeat;
   background-position: center;
   padding: 100px 0;
   max-width: 100%;
+  background-size: cover;
 }
 .title {
   text-align: center;
   color: white;
+  margin: 0 auto;
 }
 @media screen and (min-width: 700px) {
   .hero {
     background-image: linear-gradient(
-        rgba(46, 47, 66, 0.6),
-        rgba(46, 47, 66, 0.6)
+        rgba(46, 47, 66, 0.4),
+        rgba(46, 47, 66, 0.4)
       ),
       url(../../../images/bar2.jpg);
     background-repeat: no-repeat;
     background-position: center;
     padding: 110px 0;
-    max-width: 100%;
   }
   .title {
-    text-align: center;
-    color: white;
     font-size: 50px;
     max-width: 700px;
-    margin: 0 auto;
   }
 }
 @media screen and (min-width: 1024px) {
   .hero {
     background-image: linear-gradient(
-        rgba(46, 47, 66, 0.6),
-        rgba(46, 47, 66, 0.6)
+        rgba(46, 47, 66, 0.4),
+        rgba(46, 47, 66, 0.4)
       ),
       url(../../../images/bar.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    padding: 160px 0;
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
+
+    padding: 180px 0;
   }
   .title {
-    text-align: center;
-    color: white;
     font-size: 60px;
     max-width: 700px;
-    margin: 0 auto;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.4),
+        rgba(46, 47, 66, 0.4)
+      ),
+      url(../../../images/bar0.jpg);
   }
 }
