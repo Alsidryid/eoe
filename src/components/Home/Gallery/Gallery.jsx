@@ -20,7 +20,6 @@ import picture11 from "../../../images/11.jpg";
 import picture12 from "../../../images/12.jpg";
 import style from "./Gallery.module.css";
 import "./dots.css";
-import { useTranslation } from "react-i18next";
 
 const images = [
   { src: picture1, alt: "Slide 1" },
@@ -46,7 +45,6 @@ const Gallery = () => {
     slidesToScroll: 1,
   };
 
-  const { t } = useTranslation();
   const dispatch = useDispatch();
   const modalOpen = useSelector((state) => state.modalOpen);
   const image = useSelector((state) => state.image);
@@ -57,12 +55,16 @@ const Gallery = () => {
 
   return (
     <div className={style.section}>
-      <h2 className={style.title}>{t("gallery.title")}</h2>
       <Slider {...settings} className={style.sldr}>
         {images.map((image, index) => (
-          <div key={index} onClick={() => handleImageClick(image.src)}>
+          <div key={index}>
             <div>
-              <img className={style.img} src={image.src} alt={image.alt} />
+              <img
+                onClick={() => handleImageClick(image.src)}
+                className={style.img}
+                src={image.src}
+                alt={image.alt}
+              />
             </div>
           </div>
         ))}

@@ -15,7 +15,7 @@
   align-items: center;
 }
 @media screen and (max-width: 423px) {
-  .slick-dots {
-    flex-wrap: wrap;
+  .slick-dots li {
+    margin: 0;
   }
 }
