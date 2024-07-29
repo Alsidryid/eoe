@@ -11,8 +11,11 @@
   background-size: cover;
 }
 .title {
+  font-family: "Ubuntu", sans-serif;
   text-align: center;
-  color: white;
+  font-weight: 700;
+
+  color: rgb(243, 229, 192);
   margin: 0 auto;
 }
 @media screen and (min-width: 700px) {

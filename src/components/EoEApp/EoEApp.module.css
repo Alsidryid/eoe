@@ -1,8 +1,11 @@
-.container {
+/* .container {
   opacity: 1;
   transition: opacity 2s ease-in-out; /* Плавное исчезновение за 2 секунды */
-}
 
-.container.fade-out {
+/* .container.fade-out {
   opacity: 0;
+} / */
+.box {
+  font-family: "Kanit", sans-serif;
+  /* font-family: "Ubuntu", sans-serif; */
 }

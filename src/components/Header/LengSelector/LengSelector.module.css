@@ -1,12 +1,18 @@
 .select {
   font-size: 20px;
   cursor: pointer;
-  margin-left: 20px;
+  margin-left: 10px;
+  border-left: 1px solid rgba(247, 188, 59, 0.897);
 }
 
 @media screen and (max-width: 319px) {
   .select {
     font-size: 13px;
     margin-left: 10px;
+  }
+}
+@media screen and (min-width: 700px) {
+  .select {
+    font-size: 30px;
   }
 }

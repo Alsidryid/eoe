@@ -6,31 +6,32 @@ import style from "./LengSelector.module.css";
 const options = [
   { value: "en", label: "En" },
   { value: "ru", label: "Ru" },
+  { value: "de", label: "De" },
 ];
 
 const customStyles = {
   control: (provided, state) => ({
     ...provided,
     backgroundColor: "transparent",
-    borderColor: "#d3b81fe8",
-    color: "#d3b81fe8",
+    borderColor: "transparent",
+    color: "#F7BC3BE5",
     boxShadow: "none",
     cursor: "pointer",
     "&:hover": {
-      borderColor: "#d3b81fe8",
+      borderColor: "transparent",
     },
   }),
   singleValue: (provided) => ({
     ...provided,
-    color: "#d3b81fe8",
+    color: "#F7BC3BE5",
   }),
   placeholder: (provided) => ({
     ...provided,
-    color: "#d3b81fe8",
+    color: "#F7BC3BE5",
   }),
   input: (provided) => ({
     ...provided,
-    color: "#d3b81fe8",
+    color: "#F7BC3BE5",
 
     cursor: "default",
   }),
@@ -42,11 +43,11 @@ const customStyles = {
   }),
   option: (provided, state) => ({
     ...provided,
-    backgroundColor: state.isSelected ? "#d3b81fe8" : "#d3b81f3f",
-    color: state.isSelected ? "white" : "#d3b81fe8",
+    backgroundColor: state.isSelected ? "#F7BC3BE5" : "#d3b81f3f",
+    color: state.isSelected ? "white" : "#F7BC3BE5",
     cursor: "pointer",
     "&:hover": {
-      backgroundColor: state.isSelected ? "red" : "#d3b81fe8",
+      backgroundColor: state.isSelected ? "red" : "#F7BC3BE5",
       color: "white",
     },
   }),

@@ -7,16 +7,33 @@
   list-style: none;
   padding: 0;
   margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  padding-top: 10px;
 }
+
 .link {
   text-decoration: none;
-  color: rgba(211, 184, 31, 0.911);
 }
 .item:not(:last-child) {
-  margin-bottom: 8px;
+  margin-right: 8px;
 }
-@media screen and (max-width: 319px) {
+.icon {
+  display: block;
+  width: 25px;
+  fill: rgba(247, 188, 59, 0.897);
+  transition: fill 0.3s ease;
+  cursor: pointer;
+}
+.icon:hover {
+  fill: rgba(245, 237, 125, 0.897);
+}
+@media screen and (max-width: 350px) {
   .list {
-    font-size: 13px;
+    flex-direction: column;
+  }
+  .icon {
+    width: 20px;
   }
 }

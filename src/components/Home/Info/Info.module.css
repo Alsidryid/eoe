@@ -1,5 +1,5 @@
 .section {
-  background-color: rgb(43, 41, 41);
+  background-color: rgba(30, 30, 58, 0.89);
   color: white;
   padding: 20px 15px;
 }
@@ -15,7 +15,6 @@
 }
 @media screen and (min-width: 700px) {
   .section {
-    background-color: rgb(43, 41, 41);
     color: white;
     padding: 20px 35px;
   }
@@ -35,7 +34,6 @@
 }
 @media screen and (min-width: 1024px) {
   .section {
-    background-color: rgb(43, 41, 41);
     color: white;
     padding: 35px;
     max-width: 1400px;
