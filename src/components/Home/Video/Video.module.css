@@ -1,10 +1,10 @@
 .section {
-  background-color: rgb(22, 22, 39);
+  background-color: rgba(30, 30, 58, 0.89);
   margin: auto;
   padding: 25px 30px;
 }
 .video_box {
-  padding: 20px;
+  /* padding: 20px; */
 }
 .video {
   display: block;

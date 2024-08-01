@@ -6,18 +6,15 @@ const About = () => {
   return (
     <div className={style.section}>
       <h2 className={style.title}>{t("about.title")}</h2>
-      <p>{t("about.p1")}</p>
-      <ul>
-        <li>
-          <p> {t("about.p2")}</p>
-        </li>
-        <li>
-          <p> {t("about.p3")}</p>
-        </li>
-        <li>
-          <p> {t("about.p4")}</p>
-        </li>
-      </ul>
+      <p className={style.description}>{t("about.p1")}</p>
+      <p className={style.description}>{t("about.p2")}</p>
+      <p className={style.description}>
+        {t("about.p3")}
+        <a className={style.link} href="https://www.youtube.com/@LSTEP20">
+          Cheers across the borders
+        </a>
+        {t("about.p4")}
+      </p>
     </div>
   );
 };

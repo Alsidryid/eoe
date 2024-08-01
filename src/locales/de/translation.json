@@ -1,0 +1,23 @@
+{
+  "hero": { "title": "Barkeeper-Dienstleistungen vom Profi" },
+  "gallery": { "title": "OUR GALLERY" },
+  "about": {
+    "title": "Willkommen auf meiner Website! ",
+    "p1": " Ich freue mich, Ihnen einzigartige Barkeeper-Dienstleistungen anbieten zu können, die Ihnen ermöglichen, die Kunst der Getränkezubereitung und Verkostung auf einem neuen Niveau zu genießen. Mein Name ist Sergo und ich bin ein professioneller Barkeeper mit langjähriger Erfahrung in den besten Bars und Restaurants. In meiner Arbeit strebe ich nicht nur danach, großartige Getränke zu kreieren, sondern auch mein Wissen und meine Leidenschaft für dieses Handwerk zu teilen.",
+    "p2": "Ich wurde in der Ukraine geboren, bin in Tschechien aufgewachsen und lebe derzeit in Deutschland, wo ich versuche, mein Wissen in die deutsche Barszene zu integrieren. Letztes Jahr habe ich meinen Bachelor-Abschluss in Internationalen Beziehungen und Diplomatie gemacht und arbeite daran, eine neue Kultur des Alkoholkonsums in verschiedenen Ländern und Kulturen zu schaffen.",
+    "p3": "Mein YouTube-Kanal ",
+    "p4": " zeigt, wie man Alkohol und Cocktails richtig trinkt, um sie zu genießen. Außerdem präsentiere ich dort neue Bars und Orte, an denen ich als Barkeeper in Deutschland und Prag gearbeitet habe."
+  },
+  "info": {
+    "title1": "Whisky-Verkostung",
+    "description1": "Tauchen Sie ein in die Welt des edlen Getränks und entdecken Sie die Vielfalt der Aromen und Geschmäcker verschiedener Whiskysorten. Ich arbeite mit Marken wie Michter's, The Dalmore, Jura und Teeling, bin aber immer bereit, eine spezielle Auswahl für jeden Anlass zusammenzustellen. Ich werde Ihnen die Feinheiten der Herstellung, Geschichte und Besonderheiten jedes Exemplars erläutern. Sie werden lernen, die Nuancen zu unterscheiden und zu verstehen, was jeden Whisky einzigartig macht. Auf Wunsch kann die Whisky-Verkostung auch mit einer passenden Zigarrenverkostung kombiniert werden.",
+    "title2": "Gin-Verkostung",
+    "description2": "Gin ist nicht nur ein Getränk, sondern eine ganze Kultur mit ihrer eigenen Geschichte und Tradition. Bei der Gin-Verkostung werde ich Ihnen verschiedene Arten dieses Getränks vorstellen, darunter Marken wie Brockmans, GinSTR, The Duke, Illusionist, Nordes und Brooklyn. Zudem biete ich die Möglichkeit, handgemachte Schokoladenpralinen und verschiedene Tonic-Wasser, hauptsächlich von Thomas Henry und Fever Tree, zu verkosten. Ich erkläre die Herstellungsmethoden und zeige Ihnen, wie Sie die Qualität und den Geschmack richtig bewerten.",
+    "title3": "Rum-Verkostung",
+    "description3": "Rum ist ein Getränk mit reicher Geschichte, das mit Abenteuern und Exotik assoziiert wird. Bei meiner Rum-Verkostung werden Sie die Vielfalt seiner Sorten entdecken, darunter Marken wie Compagnie des Indes (blended und unblended), Botucal, Havana Club Union, A.H. Riise, Emperor und Plantation. Sie erfahren etwas über die Besonderheiten der Herstellung und lernen, die feinen Noten des Geschmacks und Aromas zu unterscheiden. Auf Wunsch kann die Rum-Verkostung auch mit einer passenden Zigarrenverkostung kombiniert werden.",
+    "title4": "Cocktail-Kurs",
+    "description4": "Möchten Sie die Kunst der Cocktailzubereitung erlernen? Mein Cocktail-Kurs ist die perfekte Gelegenheit, die Grundlagen der Mixologie zu meistern und klassische sowie eigene Cocktails zuzubereiten. Sie werden die richtigen Proportionen, die Kombination der Zutaten und die Geheimnisse der Präsentation von Getränken kennenlernen, die Ihre Gäste beeindrucken werden.",
+    "title5": "Zusätzliche Dienstleistungen:",
+    "description5": "- Private Partys und Veranstaltungen: Ich organisiere thematische Partys, Firmenveranstaltungen und private Verkostungen, damit Ihre Gäste einzigartige Getränke und eine besondere Atmosphäre genießen können."
+  }
+}

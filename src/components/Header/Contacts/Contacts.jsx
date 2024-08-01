@@ -19,7 +19,7 @@ const Contacts = () => {
         <li className={style.item}>
           <a
             className={style.link}
-            href="tel:+380961111111"
+            href="tel:+491623744934"
             target="_blank"
             rel="noreferrer"
           >

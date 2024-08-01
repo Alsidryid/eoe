@@ -12,8 +12,8 @@ const Homepage = () => {
         <Hero />
         <About />
         <Gallery />
-        <Video />
         <Info />
+        <Video />
       </div>
     </div>
   );

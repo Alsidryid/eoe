@@ -4,9 +4,9 @@ import { useTranslation } from "react-i18next";
 import style from "./LengSelector.module.css";
 
 const options = [
+  { value: "de", label: "De" },
   { value: "en", label: "En" },
   { value: "ru", label: "Ru" },
-  { value: "de", label: "De" },
 ];
 
 const customStyles = {

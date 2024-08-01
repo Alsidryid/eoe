@@ -1,27 +1,46 @@
 .section {
-  background-color: rgba(30, 30, 58, 0.89);
+  background-color: rgb(22, 22, 39);
   color: white;
-  padding: 20px 15px;
+  padding: 30px 15px;
+}
+
+.item:nth-child(odd) {
+  text-align: end; /* Задаем фон для каждого второго элемента */
+  width: 100%;
 }
 .title {
-  margin: 20px 0;
+  font-family: "Ubuntu", sans-serif;
+  margin: 20px 0 15px 0;
   text-align: center;
-  color: brown;
+  color: rgb(247, 165, 59);
 }
 .main_list {
   margin: 0;
   padding: 0;
   list-style: none;
 }
+.box_des {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.image {
+  display: block;
+  max-width: 200px;
+  padding: 0 15px 0 15px;
+  border-radius: 23px;
+}
+.description {
+  margin: 0;
+}
 @media screen and (min-width: 700px) {
   .section {
     color: white;
-    padding: 20px 35px;
   }
   .title {
-    margin: 20px auto 25px auto;
+    margin: 25px auto 15px auto;
     text-align: center;
-    color: brown;
+
     font-size: 25px;
   }
   .main_list {
@@ -29,21 +48,20 @@
     padding: 0;
     list-style: none;
     font-size: 18px;
-    max-width: 80%;
+    max-width: 95%;
   }
 }
 @media screen and (min-width: 1024px) {
   .section {
     color: white;
-    padding: 35px;
+
     max-width: 1400px;
     margin-left: auto;
     margin-right: auto;
   }
   .title {
-    margin: 20px auto 25px auto;
     text-align: center;
-    color: brown;
+
     font-size: 27px;
   }
   .main_list {
@@ -52,5 +70,54 @@
     list-style: none;
     font-size: 19px;
     max-width: 100%;
+  }
+}
+@media screen and (max-width: 549px) {
+  .image {
+    display: none;
+  }
+  .item:nth-child(odd) {
+    text-align: center; /* Задаем фон для каждого второго элемента */
+    width: 100%;
+  }
+  .description {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .main_list .item:nth-child(1) .description {
+    background-image: linear-gradient(
+        rgba(17, 18, 51, 0.8),
+        rgba(17, 18, 51, 0.8)
+      ),
+      url(../../../images/wiskey.jpg);
+  }
+  .main_list .item:nth-child(2) .description {
+    background-image: linear-gradient(
+        rgba(17, 18, 51, 0.8),
+        rgba(17, 18, 51, 0.8)
+      ),
+      url(../../../images/jin.jpg);
+  }
+  .main_list .item:nth-child(3) .description {
+    background-image: linear-gradient(
+        rgba(17, 18, 51, 0.8),
+        rgba(17, 18, 51, 0.8)
+      ),
+      url(../../../images/rum.jpg);
+  }
+  .main_list .item:nth-child(4) .description {
+    background-image: linear-gradient(
+        rgba(17, 18, 51, 0.8),
+        rgba(17, 18, 51, 0.8)
+      ),
+      url(../../../images/party.jpg);
+  }
+  .main_list .item:nth-child(5) .description {
+    background-image: linear-gradient(
+        rgba(17, 18, 51, 0.8),
+        rgba(17, 18, 51, 0.8)
+      ),
+      url(../../../images/klass.jpg);
   }
 }
