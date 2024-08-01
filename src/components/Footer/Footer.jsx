@@ -1,6 +1,6 @@
 import picture from "../../images/logo2.svg";
 import style from "./Footer.module.css";
-import FooterContacts from "./FooterContacts/FooterContats";
+import FooterContacts from "./FooterContacts/FooterContacts";
 const Footer = () => {
   return (
     <div className={style.footer}>

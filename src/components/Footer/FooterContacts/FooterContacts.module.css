@@ -1,24 +1,99 @@
 .icon {
   fill: rgba(247, 188, 59, 0.897);
-  width: 40px;
-  transition: fill 0.3s ease;
+  width: 43px;
+  opacity: 0.8;
   cursor: pointer;
+  transition: opacity 0.3s ease;
+  height: 43px;
 }
 .icon:hover {
-  fill: rgba(245, 237, 125, 0.897);
+  opacity: 1;
+  transition: opacity 1.3s ease;
+}
+.main_cont .link {
+  justify-content: start;
+  align-items: center;
+  font-size: 15px;
+  display: flex;
+  text-decoration: none;
+}
+.main_cont .link .icon {
+  width: 20px;
+  height: 20px;
 }
 .contacts {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 250px;
+  width: 400px;
 }
-
+.text {
+  margin-left: 7px;
+  color: white;
+  transition: color 0.3s ease;
+}
+.sec_cont {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+.link:hover .icon,
+.link:hover .text {
+  color: rgba(245, 237, 125, 0.897); /* Цвет при наведении */
+  fill: rgba(245, 237, 125, 0.897);
+  transition: color 0.3s ease, fill 0.3s ease;
+}
+.main_cont {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
 @media screen and (max-width: 351px) {
   .icon {
     width: 30px;
   }
   .contacts {
     width: 200px;
+  }
+}
+@media screen and (max-width: 499px) {
+  .icon {
+    width: 27px;
+    height: 27px;
+  }
+  .contacts {
+    width: 300px;
+  }
+  .main_cont {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .main_cont .link {
+    font-size: 10px;
+  }
+  .main_cont .link .icon {
+    width: 15px;
+    height: 15px;
+  }
+}
+@media screen and (max-width: 349px) {
+  .sec_cont {
+    flex-wrap: wrap;
+    width: 55px;
+    justify-content: space-between;
+  }
+  .icon {
+    width: 20px;
+    height: 20px;
+  }
+  .icon:nth-child(-n + 2) {
+    margin-bottom: 5px;
+  }
+  .contacts {
+    justify-content: end;
+  }
+  .main_cont .link .icon {
+    margin-bottom: 0;
   }
 }
