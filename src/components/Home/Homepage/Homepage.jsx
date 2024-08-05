@@ -4,6 +4,7 @@ import About from "../About/About.jsx";
 import Gallery from "../Gallery/Gallery.jsx";
 import Info from "../Info/Info.jsx";
 import Video from "../Video/Video.jsx";
+import Conclusion from "../Conclusion/Conclusion.jsx";
 
 const Homepage = () => {
   return (
@@ -14,6 +15,7 @@ const Homepage = () => {
         <Gallery />
         <Info />
         <Video />
+        <Conclusion />
       </div>
     </div>
   );

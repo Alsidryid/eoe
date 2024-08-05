@@ -1,9 +1,9 @@
 {
-  "hero": { "title": "Barkeeper-Dienstleistungen vom Profi" },
+  "hero": { "title": "Barkeeper Dienstleistungen vom Serge" },
   "gallery": { "title": "OUR GALLERY" },
   "about": {
     "title": "Willkommen auf meiner Website! ",
-    "p1": " Ich freue mich, Ihnen einzigartige Barkeeper-Dienstleistungen anbieten zu können, die Ihnen ermöglichen, die Kunst der Getränkezubereitung und Verkostung auf einem neuen Niveau zu genießen. Mein Name ist Sergo und ich bin ein professioneller Barkeeper mit langjähriger Erfahrung in den besten Bars und Restaurants. In meiner Arbeit strebe ich nicht nur danach, großartige Getränke zu kreieren, sondern auch mein Wissen und meine Leidenschaft für dieses Handwerk zu teilen.",
+    "p1": " Ich freue mich, Ihnen einzigartige Barkeeper-Dienstleistungen anbieten zu können, die Ihnen ermöglichen, die Kunst der Getränkezubereitung und Verkostung auf einem neuen Niveau zu genießen. Mein Name ist Serge und ich bin ein professioneller Barkeeper mit langjähriger Erfahrung in den besten Bars und Restaurants. In meiner Arbeit strebe ich nicht nur danach, großartige Getränke zu kreieren, sondern auch mein Wissen und meine Leidenschaft für dieses Handwerk zu teilen.",
     "p2": "Ich wurde in der Ukraine geboren, bin in Tschechien aufgewachsen und lebe derzeit in Deutschland, wo ich versuche, mein Wissen in die deutsche Barszene zu integrieren. Letztes Jahr habe ich meinen Bachelor-Abschluss in Internationalen Beziehungen und Diplomatie gemacht und arbeite daran, eine neue Kultur des Alkoholkonsums in verschiedenen Ländern und Kulturen zu schaffen.",
     "p3": "Mein YouTube-Kanal ",
     "p4": " zeigt, wie man Alkohol und Cocktails richtig trinkt, um sie zu genießen. Außerdem präsentiere ich dort neue Bars und Orte, an denen ich als Barkeeper in Deutschland und Prag gearbeitet habe."
@@ -18,6 +18,14 @@
     "title4": "Cocktail-Kurs",
     "description4": "Möchten Sie die Kunst der Cocktailzubereitung erlernen? Mein Cocktail-Kurs ist die perfekte Gelegenheit, die Grundlagen der Mixologie zu meistern und klassische sowie eigene Cocktails zuzubereiten. Sie werden die richtigen Proportionen, die Kombination der Zutaten und die Geheimnisse der Präsentation von Getränken kennenlernen, die Ihre Gäste beeindrucken werden.",
     "title5": "Zusätzliche Dienstleistungen:",
-    "description5": "- Private Partys und Veranstaltungen: Ich organisiere thematische Partys, Firmenveranstaltungen und private Verkostungen, damit Ihre Gäste einzigartige Getränke und eine besondere Atmosphäre genießen können."
+    "description5": "- Private Partys und Veranstaltungen: Ich organisiere thematische Partys, Firmenveranstaltungen und private Verkostungen, damit Ihre Gäste einzigartige Getränke und eine besondere Atmosphäre genießen können.",
+    "description6": "- Beratung und Workshops: Ich biete persönliche und Gruppenberatungen zur Auswahl von Alkohol, zur Erstellung von Cocktails und zur Organisation einer Hausbar an.",
+    "description7": "- Kreation von Signature-Cocktails: Entwicklung exklusiver Cocktails nach Ihrem Wunsch, unter Berücksichtigung Ihrer Geschmacksvorlieben und des Veranstaltungsthemas.",
+    "description8": "- Verkostung von französischem Wein und Champagner: Auf Vorbestellung kann ich auch Verkostungen von französischem Wein und Champagner organisieren."
+  },
+  "conclution": {
+    "title": "Warum sollten Sie mich wählen?",
+    "description": "   Professionalität: Ich habe umfangreiche Erfahrung in der Barkunst undverbessere ständig meine Fähigkeiten. - Individuelle Herangehensweise:Jedes Event plane ich nach Ihren Wünschen und Vorlieben. - Leidenschaftfür die Arbeit: Meine Arbeit ist nicht nur ein Beruf, sondern meineBerufung, und ich strebe danach, meine Liebe zu Getränken mit jedemKunden zu teilen.",
+    "farewell": "Ich freue mich auf Sie!"
   }
 }

@@ -19,19 +19,26 @@
   padding: 0;
   list-style: none;
 }
+li:nth-child(2n) .box_des {
+  flex-direction: row-reverse;
+}
 .box_des {
   display: flex;
+
   justify-content: space-around;
   align-items: center;
+  background-color: rgba(29, 29, 51, 0.404);
+  border-radius: 12px;
 }
 .image {
   display: block;
   max-width: 200px;
-  padding: 0 15px 0 15px;
-  border-radius: 23px;
+
+  border-radius: 12px;
 }
 .description {
   margin: 0;
+  padding: 0 20px;
 }
 @media screen and (min-width: 700px) {
   .section {
@@ -52,12 +59,22 @@
   }
 }
 @media screen and (min-width: 1024px) {
+  .description {
+    padding: 10px 50px;
+  }
   .section {
     color: white;
 
     max-width: 1400px;
     margin-left: auto;
     margin-right: auto;
+  }
+  .item:nth-child(odd) {
+    text-align: start; /* Задаем фон для каждого второго элемента */
+    width: 100%;
+  }
+  li:nth-child(2n) .box_des {
+    flex-direction: row;
   }
   .title {
     text-align: center;
@@ -87,37 +104,52 @@
   }
   .main_list .item:nth-child(1) .description {
     background-image: linear-gradient(
-        rgba(17, 18, 51, 0.8),
-        rgba(17, 18, 51, 0.8)
+        rgba(17, 18, 51, 0.6),
+        rgba(17, 18, 51, 0.6)
       ),
       url(../../../images/wiskey.jpg);
   }
   .main_list .item:nth-child(2) .description {
     background-image: linear-gradient(
-        rgba(17, 18, 51, 0.8),
-        rgba(17, 18, 51, 0.8)
+        rgba(17, 18, 51, 0.6),
+        rgba(17, 18, 51, 0.6)
       ),
       url(../../../images/jin.jpg);
   }
   .main_list .item:nth-child(3) .description {
     background-image: linear-gradient(
-        rgba(17, 18, 51, 0.8),
-        rgba(17, 18, 51, 0.8)
+        rgba(17, 18, 51, 0.6),
+        rgba(17, 18, 51, 0.6)
       ),
       url(../../../images/rum.jpg);
   }
   .main_list .item:nth-child(4) .description {
     background-image: linear-gradient(
-        rgba(17, 18, 51, 0.8),
-        rgba(17, 18, 51, 0.8)
+        rgba(17, 18, 51, 0.6),
+        rgba(17, 18, 51, 0.6)
+      ),
+      url(../../../images/klass.jpg);
+  }
+  .group_des {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(
+        rgba(17, 18, 51, 0.6),
+        rgba(17, 18, 51, 0.6)
       ),
       url(../../../images/party.jpg);
   }
-  .main_list .item:nth-child(5) .description {
+  /* .main_list .item:nth-child(5) .description {
     background-image: linear-gradient(
         rgba(17, 18, 51, 0.8),
         rgba(17, 18, 51, 0.8)
       ),
       url(../../../images/klass.jpg);
+  } */
+}
+@media screen and (min-width: 1200px) {
+  .description {
+    padding-right: 90px;
   }
 }

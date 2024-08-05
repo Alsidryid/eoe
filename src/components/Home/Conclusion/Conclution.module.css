@@ -1,0 +1,73 @@
+.section {
+  max-width: 1400px;
+  background-color: rgb(22, 22, 39);
+  color: white;
+  padding: 30px 15px;
+}
+.title {
+  font-size: 30px;
+  color: rgb(247, 165, 59);
+  text-align: center;
+}
+.description {
+  text-align: center;
+  padding: 10px 40px;
+}
+.farewell {
+  text-align: end;
+}
+.image {
+  display: none;
+
+  border-radius: 15px;
+  -webkit-box-shadow: 4px 4px 8px 0px rgba(163, 178, 189, 0.2);
+  -moz-box-shadow: 4px 4px 8px 0px rgba(163, 178, 189, 0.2);
+  box-shadow: 4px 4px 8px 0px rgba(163, 178, 189, 0.2);
+}
+.box {
+  background-image: linear-gradient(
+      rgba(17, 18, 51, 0.6),
+      rgba(17, 18, 51, 0.6)
+    ),
+    url(../../../images/conclution.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+}
+@media screen and (min-width: 500px) {
+  .box {
+    background-image: none;
+    align-items: center;
+  }
+  .image {
+    display: block;
+    margin-right: 10px;
+    max-width: 200px;
+    height: 100%;
+  }
+  .description {
+    padding: 10px 10px;
+  }
+}
+@media screen and (min-width: 700px) {
+  .image {
+    max-width: 250px;
+  }
+  .box {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .image {
+    max-width: 300px;
+  }
+  .description {
+    padding: 10px 50px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .description {
+    padding: 10px 70px;
+  }
+}
