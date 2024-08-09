@@ -10,11 +10,11 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 const videos = [
+  { src: mainVideo, alt: "Slide 0" },
   { src: video1, alt: "Slide 1" },
   { src: video2, alt: "Slide 2" },
   { src: video3, alt: "Slide 3" },
   { src: video4, alt: "Slide 4" },
-  { src: mainVideo, alt: "Slide 0" },
 ];
 
 const Video = () => {

@@ -6,11 +6,13 @@
   color: rgb(192, 189, 189);
 }
 .title {
-  font-family: "Ubuntu", sans-serif;
+  font-size: 35px;
+  font-family: "Raleway", sans-serif;
   text-align: center;
   color: rgb(247, 165, 59);
 }
 .description {
+  font-family: "Lexend", sans-serif;
   text-align: center;
 }
 .link {
@@ -26,7 +28,7 @@
   .title {
     text-align: center;
 
-    font-size: 40px;
+    font-size: 35px;
     margin: 5px auto;
   }
 }
@@ -42,7 +44,7 @@
   }
   .title {
     text-align: center;
-    font-size: 50px;
+    font-size: 40px;
     margin: 5px auto;
   }
 }

@@ -18,7 +18,7 @@ i18n.use(initReactI18next).init({
     },
   },
   lng: "de", // Устанавливаем начальный язык
-  fallbackLng: "de", // Язык по умолчанию, если не найдено соответствующего перевода
+  fallbackLng: "de",
   interpolation: {
     escapeValue: false, // необходимо для избегания XSS (например, в React)
   },

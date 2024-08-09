@@ -1,8 +1,8 @@
 {
   "hero": { "title": "Barkeeper Dienstleistungen vom Serge" },
-  "gallery": { "title": "OUR GALLERY" },
+
   "about": {
-    "title": "Willkommen auf meiner Website! ",
+    "title": "Willkommen auf meiner Website!",
     "p1": " Ich freue mich, Ihnen einzigartige Barkeeper-Dienstleistungen anbieten zu können, die Ihnen ermöglichen, die Kunst der Getränkezubereitung und Verkostung auf einem neuen Niveau zu genießen. Mein Name ist Serge und ich bin ein professioneller Barkeeper mit langjähriger Erfahrung in den besten Bars und Restaurants. In meiner Arbeit strebe ich nicht nur danach, großartige Getränke zu kreieren, sondern auch mein Wissen und meine Leidenschaft für dieses Handwerk zu teilen.",
     "p2": "Ich wurde in der Ukraine geboren, bin in Tschechien aufgewachsen und lebe derzeit in Deutschland, wo ich versuche, mein Wissen in die deutsche Barszene zu integrieren. Letztes Jahr habe ich meinen Bachelor-Abschluss in Internationalen Beziehungen und Diplomatie gemacht und arbeite daran, eine neue Kultur des Alkoholkonsums in verschiedenen Ländern und Kulturen zu schaffen.",
     "p3": "Mein YouTube-Kanal ",
@@ -25,7 +25,9 @@
   },
   "conclution": {
     "title": "Warum sollten Sie mich wählen?",
-    "description": "   Professionalität: Ich habe umfangreiche Erfahrung in der Barkunst undverbessere ständig meine Fähigkeiten. - Individuelle Herangehensweise:Jedes Event plane ich nach Ihren Wünschen und Vorlieben. - Leidenschaftfür die Arbeit: Meine Arbeit ist nicht nur ein Beruf, sondern meineBerufung, und ich strebe danach, meine Liebe zu Getränken mit jedemKunden zu teilen.",
+    "description1": " -  Professionalität: Ich habe umfangreiche Erfahrung in der Barkunst undverbessere ständig meine Fähigkeiten.",
+    "description2": " - Individuelle Herangehensweise:Jedes Event plane ich nach Ihren Wünschen und Vorlieben.",
+    "description3": " - Leidenschaftfür die Arbeit: Meine Arbeit ist nicht nur ein Beruf, sondern meineBerufung, und ich strebe danach, meine Liebe zu Getränken mit jedemKunden zu teilen.",
     "farewell": "Ich freue mich auf Sie!"
   }
 }

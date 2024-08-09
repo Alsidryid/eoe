@@ -8,6 +8,11 @@
   width: 50px;
   text-decoration: none;
 }
+.all_info {
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+}
 .image {
   display: block;
   width: 50px;
@@ -20,4 +25,15 @@
   margin-left: auto;
   margin-right: auto;
   padding: 15px;
+}
+.rights {
+  color: rgba(126, 123, 123, 0.568);
+  margin: 0;
+  padding: 10px 15px;
+  font-size: 10px;
+}
+@media screen and (min-width: 700px) {
+  .rights {
+    font-size: 15px;
+  }
 }

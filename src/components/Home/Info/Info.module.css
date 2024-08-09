@@ -2,6 +2,7 @@
   background-color: rgb(22, 22, 39);
   color: white;
   padding: 30px 15px;
+  font-family: "Lexend", sans-serif;
 }
 
 .item:nth-child(odd) {
@@ -9,7 +10,7 @@
   width: 100%;
 }
 .title {
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Raleway", sans-serif;
   margin: 20px 0 15px 0;
   text-align: center;
   color: rgb(247, 165, 59);

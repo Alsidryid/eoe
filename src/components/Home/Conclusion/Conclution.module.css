@@ -2,19 +2,22 @@
   max-width: 1400px;
   background-color: rgb(22, 22, 39);
   color: white;
-  padding: 30px 15px;
+  padding: 37px 15px;
 }
 .title {
+  font-family: "Raleway", sans-serif;
   font-size: 30px;
   color: rgb(247, 165, 59);
   text-align: center;
 }
 .description {
-  text-align: center;
-  padding: 10px 40px;
+  font-family: "Lexend", sans-serif;
+  text-align: start;
+  padding: 0 40px;
+  margin: 0;
 }
 .farewell {
-  text-align: end;
+  text-align: center;
 }
 .image {
   display: none;
@@ -47,7 +50,7 @@
     height: 100%;
   }
   .description {
-    padding: 10px 10px;
+    padding: 0 10px;
   }
 }
 @media screen and (min-width: 700px) {
@@ -63,7 +66,7 @@
     max-width: 300px;
   }
   .description {
-    padding: 10px 50px;
+    padding: 0 50px;
   }
 }
 @media screen and (min-width: 1200px) {

@@ -1,17 +1,32 @@
 {
-  "hero": { "title": "Professional bartender services" },
-  "gallery": { "title": "OUR GALLERY" },
+  "hero": { "title": "Bartender services by Serge" },
   "about": {
-    "title": "Cocktail master class together from Sergio",
-    "p1": "A cocktail making master class or an off-site bar will attract attention at any event. Our master class will be a revelation for those who want to impress friends and try something new.",
-    "p2": "Production time: 5-10 minutes.",
-    "p3": "Average traffic: 40-50 people. at one o'clock.",
-    "p4": "Возраст участников: от 18-ти лет."
+    "title": "Welcome to my website!",
+    "p1": "I am pleased to offer you unique bartending services that will allow you to enjoy the art of drink preparation and tasting on a new level. My name is Serge and I am a professional bartender with many years of experience in the best bars and restaurants. In my work, I strive not only to create great drinks, but also to share my knowledge and passion for this craft.",
+    "p2": "I was born in Ukraine, grew up in the Czech Republic and currently live in Germany, where I try to integrate my knowledge into the German bar scene. Last year I graduated with a Bachelor's degree in International Relations and Diplomacy and I'm working on creating a new culture of alcohol consumption in different countries and cultures.",
+    "p3": "My YouTube channel ",
+    "p4": " shows how to drink alcohol and cocktails properly to enjoy them. I also present new bars and places where I worked as a bartender in Germany and Prague."
   },
   "info": {
-    "title1": "How the master class goes:",
-    "title2": "What materials will we provide:",
-    "title3": "What is required from the customer:",
-    "title4": "Nuances:"
+    "title1": "Whisky tasting",
+    "description1": "Immerse yourself in the world of the noble drink and discover the variety of aromas and flavors of different types of whiskey. I work with brands such as Michter's, The Dalmore, Jura and Teeling, but I am always ready to put together a special selection for every occasion. I will explain to you the intricacies of production, history and peculiarities of each specimen. You will learn to distinguish the nuances and understand what makes each whiskey unique. If desired, the whiskey tasting can also be combined with a matching cigar tasting.",
+    "title2": "Gin tasting",
+    "description2": "Gin is not just a drink, but a whole culture with its own history and tradition. During the gin tasting, I will introduce you to different types of this drink, including brands such as Brockmans, GinSTR, The Duke, Illusionist, Nordes and Brooklyn. I will also offer the opportunity to taste handmade chocolate pralines and various tonic waters, mainly from Thomas Henry and Fever Tree. I will explain the production methods and show you how to correctly evaluate the quality and taste.",
+    "title3": "Rum-tasting",
+    "description3": "Rum is a drink with a rich history, associated with adventure and exoticism. During my rum tasting, you will discover the variety of its varieties, including brands such as Compagnie des Indes (blended and unblended), Botucal, Havana Club Union, A.H. Riise, Emperor and Plantation. You will learn about the specifics of its production and learn to distinguish the subtle notes of taste and aroma. If you wish, the rum tasting can also be combined with a matching cigar tasting.",
+    "title4": "Cocktail course",
+    "description4": "Do you want to learn the art of cocktail making? My cocktail course is the perfect opportunity to master the basics of mixology and prepare classic and custom cocktails. You will learn the right proportions, how to combine ingredients and the secrets of presenting drinks that will impress your guests.",
+    "title5": "Additional services:",
+    "description5": "- Private parties and events: I organize themed parties, corporate events and private tastings so that your guests can enjoy unique drinks and a special atmosphere.",
+    "description6": "- Consulting and workshops: I offer personal and group consultations on choosing alcohol, creating cocktails and organizing a home bar.",
+    "description7": "- Creation of signature cocktails: Development of exclusive cocktails according to your wishes, taking into account your taste preferences and the theme of the event.",
+    "description8": "- Tasting of French wine and champagne: I can also organize tastings of French wine and champagne upon prior reservation."
+  },
+  "conclution": {
+    "title": "Why should you choose me?",
+    "description1": " -  Professionalism: I have extensive experience in bartending and am constantly improving my skills.",
+    "description2": " - Individual approach: I plan each event according to your wishes and preferences.",
+    "description3": " - Passion for work: My work is not just a job, it is my calling and I strive to share my love for drinks with every customer.",
+    "farewell": "I look forward to meeting you!"
   }
 }

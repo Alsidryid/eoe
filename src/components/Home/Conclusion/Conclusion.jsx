@@ -6,13 +6,16 @@ const Conclusion = () => {
   const { t } = useTranslation();
   return (
     <div className={style.section}>
-      <h3 className={style.title}>{t("conclution.title")}</h3>
       <div className={style.box}>
         <img className={style.image} src={image} alt="man" />
-        <p className={style.description}>{t("conclution.description")}</p>
+        <div>
+          <h3 className={style.title}>{t("conclution.title")}</h3>
+          <p className={style.description}>{t("conclution.description1")}</p>
+          <p className={style.description}>{t("conclution.description2")}</p>
+          <p className={style.description}>{t("conclution.description3")}</p>
+          <p className={style.farewell}>{t("conclution.farewell")}</p>
+        </div>
       </div>
-
-      <p className={style.farewell}>{t("conclution.farewell")}</p>
     </div>
   );
 };
