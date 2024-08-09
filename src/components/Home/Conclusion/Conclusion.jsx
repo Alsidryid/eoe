@@ -13,6 +13,8 @@ const Conclusion = () => {
           <p className={style.description}>{t("conclution.description1")}</p>
           <p className={style.description}>{t("conclution.description2")}</p>
           <p className={style.description}>{t("conclution.description3")}</p>
+          <p className={style.description}>{t("conclution.description4")}</p>
+          <p className={style.description}>{t("conclution.description5")}</p>
           <p className={style.farewell}>{t("conclution.farewell")}</p>
         </div>
       </div>

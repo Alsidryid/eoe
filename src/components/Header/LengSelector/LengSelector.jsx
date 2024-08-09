@@ -66,7 +66,7 @@ const LangSelector = () => {
     if (savedLanguage) {
       i18n.changeLanguage(savedLanguage);
     }
-  });
+  }, [i18n]);
 
   const changeLanguage = (selectedOption) => {
     const language = selectedOption.value;
