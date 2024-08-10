@@ -10,8 +10,11 @@ const About = () => {
       <p className={style.description}>{t("about.p2")}</p>
       <p className={style.description}>
         {t("about.p3")}
-        <a className={style.link} href="https://www.youtube.com/@LSTEP20">
-          Cheers across the borders
+        <a
+          className={style.link}
+          href="https://www.youtube.com/@cheersacrossborders"
+        >
+          Cheers Across Borders
         </a>
         {t("about.p4")}
       </p>

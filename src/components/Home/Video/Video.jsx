@@ -1,5 +1,5 @@
 import style from "./Video.module.css";
-import ReactPlayer from "react-player";
+// import ReactPlayer from "react-player";
 
 import mainVideo from "../../../video/main.mp4";
 import video1 from "../../../video/video1.mp4";
@@ -37,12 +37,9 @@ const Video = () => {
       <Slider {...settings} className={style.sldr}>
         {videos.map((video, index) => (
           <div key={index} className={style.video_box}>
-            <ReactPlayer
-              className={style.video}
-              url={video.src}
-              controls
-              height="auto"
-            />
+            <video className={style.video} controls autoplay loop>
+              <source src={video.src} type="video/mp4" />
+            </video>
           </div>
         ))}
       </Slider>

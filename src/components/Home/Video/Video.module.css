@@ -44,4 +44,7 @@
     max-height: 340px;
     max-width: 250px;
   }
+  .video_box {
+    max-width: 250px;
+  }
 }

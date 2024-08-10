@@ -1,7 +1,6 @@
-import whatsapp from "../../../images/whatsapp.svg";
 import instagram from "../../../images/instagram.svg";
 import phone from "../../../images/phone.svg";
-import telegram from "../../../images/telegram.svg";
+
 import youtube from "../../../images/youtube.svg";
 import email from "../../../images/email.svg";
 
@@ -41,28 +40,12 @@ const FooterContacts = () => {
           <ReactSVG className={style.icon} src={instagram} />
         </a>
         <a
-          href="https://www.youtube.com/"
+          href="https://www.youtube.com/@cheersacrossborders"
           className={style.link}
           target="_blank"
           rel="noreferrer"
         >
           <ReactSVG className={style.icon} src={youtube} />
-        </a>
-        <a
-          href="https://web.telegram.org/k/"
-          className={style.link}
-          target="_blank"
-          rel="noreferrer"
-        >
-          <ReactSVG className={style.icon} src={telegram} />
-        </a>
-        <a
-          href="https://web.whatsapp.com/"
-          className={style.link}
-          target="_blank"
-          rel="noreferrer"
-        >
-          <ReactSVG className={style.icon} src={whatsapp} />
         </a>
       </div>
     </div>

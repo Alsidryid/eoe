@@ -105,29 +105,29 @@ li:nth-child(2n) .box_des {
   }
   .main_list .item:nth-child(1) .description {
     background-image: linear-gradient(
-        rgba(17, 18, 51, 0.6),
-        rgba(17, 18, 51, 0.6)
+        rgba(17, 18, 51, 0.7),
+        rgba(17, 18, 51, 0.7)
       ),
       url(../../../images/wiskey.jpg);
   }
   .main_list .item:nth-child(2) .description {
     background-image: linear-gradient(
-        rgba(17, 18, 51, 0.6),
-        rgba(17, 18, 51, 0.6)
+        rgba(17, 18, 51, 0.7),
+        rgba(17, 18, 51, 0.7)
       ),
       url(../../../images/jin.jpg);
   }
   .main_list .item:nth-child(3) .description {
     background-image: linear-gradient(
-        rgba(17, 18, 51, 0.6),
-        rgba(17, 18, 51, 0.6)
+        rgba(17, 18, 51, 0.7),
+        rgba(17, 18, 51, 0.7)
       ),
       url(../../../images/rum.jpg);
   }
   .main_list .item:nth-child(4) .description {
     background-image: linear-gradient(
-        rgba(17, 18, 51, 0.6),
-        rgba(17, 18, 51, 0.6)
+        rgba(17, 18, 51, 0.7),
+        rgba(17, 18, 51, 0.7)
       ),
       url(../../../images/klass.jpg);
   }
@@ -136,18 +136,11 @@ li:nth-child(2n) .box_des {
     background-position: center;
     background-size: cover;
     background-image: linear-gradient(
-        rgba(17, 18, 51, 0.6),
-        rgba(17, 18, 51, 0.6)
+        rgba(17, 18, 51, 0.7),
+        rgba(17, 18, 51, 0.7)
       ),
       url(../../../images/party.jpg);
   }
-  /* .main_list .item:nth-child(5) .description {
-    background-image: linear-gradient(
-        rgba(17, 18, 51, 0.8),
-        rgba(17, 18, 51, 0.8)
-      ),
-      url(../../../images/klass.jpg);
-  } */
 }
 @media screen and (min-width: 1200px) {
   .description {
