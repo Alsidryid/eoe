@@ -8,6 +8,7 @@ const options = [
   { value: "de", label: "De" },
   { value: "en", label: "En" },
   { value: "ru", label: "Ru" },
+  { value: "cz", label: "Cz" },
 ];
 
 const customStyles = {

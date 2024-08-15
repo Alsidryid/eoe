@@ -1,0 +1,35 @@
+{
+  "hero": { "title": "Barkeeper služby od Serge" },
+
+  "about": {
+    "title": "Vítejte na mých webových stránkách!",
+    "p1": " Jsem rád, že vám mohu nabídnout jedinečné služby barmana, které vám umožní vychutnat si umění přípravy a degustace nápojů na zcela nové úrovni. Jmenuji se Serge a jsem profesionální barman s dlouholetými zkušenostmi v nejlepších barech a restauracích. Ve své práci se zaměřuji nejen na vytváření skvělých nápojů, ale také na sdílení svých znalostí a vášně pro toto řemeslo.",
+    "p2": "Narodil jsem se na Ukrajině, vyrůstal v České republice v Praze a v současné době žiji v Německu, kde se snažím přinést své koktejlové znalosti na německou barovou scénu. Minulý rok jsem dokončil bakalářské studium v oboru mezinárodních vztahů a diplomacie a nyní pracuji na vytváření nové kultury konzumace alkoholu v různých zemích a kulturách.",
+    "p3": "Na svém YouTube kanálu ",
+    "p4": " ukazuji, jak správně pít alkohol a koktejly abyste si je mohli skutečně vychutnat. Navíc zde představím koktejlové bary, restaurace které patří nové koktejlové éře a kde se dá hezký posedět a užít si večera s koktejlem nebo jídlem."
+  },
+  "info": {
+    "title1": "Ochutnávka whisky",
+    "description1": "Ponořte se do světa tohoto ušlechtilého nápoje a objevte rozmanitost chutí a vůní různých druhů whisky. Spolupracuji se značkami jako Michter's, The Dalmore, Jura, Teeling a mnoho dalších a vždy jsem připraven sestavit speciální výběr na míru pro každou příležitost. Vysvětlím vám detaily výroby, historii a zvláštnosti každého druhu. Naučíte se rozlišovat jemné nuance a pochopíte, co činí každou whisky jedinečnou. Na přání může být ochutnávka whisky spojena také s degustací vhodných doutníků.",
+    "title2": "Ochutnávka ginu",
+    "description2": "Gin není jen nápoj, ale celá kultura s vlastní historií a tradicí. Během ochutnávky ginu vám představím různé druhy tohoto nápoje, včetně značek jako Brockmans, GinSTR, The Duke, Illusionist, Nordes, Brooklyn a mnoho dalších s celého světa, prostě 'vždy na míru'. K tomu také nabízím možnost ochutnávky ručně vyráběných čokoládových pralinek a různých toniců, zejména od Thomas Henry a Fever Tree. Vysvětlím vám metody výroby a ukážu, jak správně posuzovat kvalitu a chuť.",
+    "title3": "Ochutnávka rumu",
+    "description3": "Rum je nápoj s bohatou historií, který je spojen s dobrodružstvím a exotikou. Při mé rumové ochutnávce objevíte rozmanitost jeho druhů, včetně značek jako Compagnie des Indes (blended a unblended), Botucal, Havana Club Union, A.H. Riise, Emperor, Plantation a také hodně jiných. Dozvíte se o zvláštnostech výroby a naučíte se rozlišovat jemné tóny chuti a vůně. Na přání může být rumová ochutnávka spojena také s degustací vhodných doutníků.",
+    "title4": "Koktejlový kurz",
+    "description4": "Chcete se naučit umění přípravy koktejlů? Můj kurz koktejlů je ideální příležitostí osvojit si základy mixologie a naučit se připravovat klasické i vlastni koktejly. Naučíte se správné poměry, kombinace ingrediencí a tajemství prezentace nápojů, které ohromí vaše hosty nebo návštěvu.",
+    "title5": "Další služby:",
+    "description5": "- Soukromé večírky a akce: Organizuji tematické večírky, firemní akce a soukromé degustace, aby si vaši hosté mohli vychutnat jedinečné nápoje a speciální atmosféru.",
+    "description6": "- Poradenství a workshopy: Nabízím osobní i skupinové poradenství ohledně výběru alkoholu, tvorby koktejlů a organizace domácího baru.",
+    "description7": "- Kreace originálních koktejlů: Vyvinutí exkluzivních koktejlů podle vašich přání s ohledem na vaše chuťové preference a téma akce.",
+    "description8": "- Degustace francouzského vína a šampaňského: Na objednávku mohu také zorganizovat degustaci francouzského vína a šampaňského."
+  },
+  "conclution": {
+    "title": "Proč si vybrat mě?",
+    "description1": " -  Profesionalita: Mám rozsáhlé zkušenosti v oboru barmanství a neustále zdokonaluji své dovednosti.",
+    "description2": " - Individuální přístup:Každou akci plánuji podle vašich přání, preferencí a vždy na míru.",
+    "description3": " - Vášeň pro práci: Moje práce není jen povoláním, ale mým posláním, a snažím se sdílet svou lásku k nápojům s každým zákazníkem.",
+    "description4": " - 100% anonymita: Garantuji úplnou důvěrnost a respekt k vašemu soukromí.",
+    "description5": " - Kreativní přístup: Vytvářím jedinečné nápoje a koktejly, které vás a vaše hosty překvapí a potěší. Do každého projektu vnáším originální nápady a kreativní řešení.",
+    "farewell": "Těším se na vás!"
+  }
+}

@@ -4,6 +4,7 @@ import { initReactI18next } from "react-i18next";
 import translationDE from "./locales/de/translation.json";
 import translationEN from "./locales/en/translation.json";
 import translationRU from "./locales/ru/translation.json";
+import translationCZ from "./locales/cz/translation.json";
 
 i18n.use(initReactI18next).init({
   resources: {
@@ -15,6 +16,9 @@ i18n.use(initReactI18next).init({
     },
     ru: {
       translation: translationRU,
+    },
+    cz: {
+      translation: translationCZ,
     },
   },
   lng: "de", // Устанавливаем начальный язык

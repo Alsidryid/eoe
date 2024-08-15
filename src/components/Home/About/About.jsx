@@ -13,6 +13,8 @@ const About = () => {
         <a
           className={style.link}
           href="https://www.youtube.com/@cheersacrossborders"
+          target="_blank"
+          rel="noreferrer"
         >
           Cheers Across Borders
         </a>
