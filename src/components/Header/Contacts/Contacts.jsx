@@ -8,7 +8,7 @@ const Contacts = () => {
       <ul className={style.list}>
         <li className={style.item}>
           <a
-            href="mailto:sergio@devstudio.com"
+            href="mailto:info@emoem.de"
             rel="noreferrer"
             className={style.link}
             target="_blank"

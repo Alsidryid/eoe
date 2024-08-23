@@ -21,13 +21,13 @@ const FooterContacts = () => {
           <span className={style.text}>+491623744934</span>
         </a>
         <a
-          href="mailto:sergio@devstudio.com "
+          href="mailto:info@emoem.de"
           className={style.link}
           target="_blank"
           rel="noreferrer"
         >
           <ReactSVG className={style.icon} src={email} />
-          <span className={style.text}>sergio@devstudio.com</span>
+          <span className={style.text}>info@emoem.de</span>
         </a>
       </div>
       <div className={style.sec_cont}>
